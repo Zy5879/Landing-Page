@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .first {
@@ -61,4 +64,19 @@ h2 {
 .quote {
     font-size: 36px;
     font-style: italic;
+}
+
+.last {
+    border: solid 8px saddlebrown;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1F2937;
+    color: pink;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
