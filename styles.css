@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    min-height: 100vh;
 }
 
 .first {
@@ -38,4 +37,28 @@ h2 {
 .text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.second {
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+    max-width: 200px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+    color:#1F2937
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
 }
