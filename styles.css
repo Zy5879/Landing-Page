@@ -9,14 +9,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    flex-shrink: 1;
    
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
     color: #F9FAF8;
     font-size: 24px;
+    justify-content: space-around;
 
 }
 
@@ -25,10 +26,15 @@ body {
     margin: 0;
     font-size: 18px;
     color:#E5E7EB;
+    list-style-type: none;
+    gap: 32px;
 }
+
 
 .container {
     display: flex;
+    padding: 52px;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -40,6 +46,11 @@ h2 {
 .text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: -40px;
+}
+
+.info {
+    width: 500px;
 }
 
 .second {
