@@ -104,8 +104,29 @@ h3 {
 
 
 .last {
-    border: solid 8px saddlebrown;
     padding: 52px;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tain {
+    border: solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 52px;
+}
+
+.call {
+    font-weight: bold;
+}
+
+.up {
+    border: solid white;
+    margin-top: -16px;
 }
 
 .footer {
