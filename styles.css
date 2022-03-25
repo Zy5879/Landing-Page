@@ -1,7 +1,7 @@
 body {
     margin: 0;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
 }
 
@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    flex-shrink: 1;
+    flex-shrink: 0;
    
 }
 
@@ -18,6 +18,8 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     justify-content: space-around;
+    flex-basis: 0;
+    
 
 }
 
@@ -53,8 +55,26 @@ h2 {
     width: 500px;
 }
 
+button {
+    border: solid dodgerblue;
+    background-color: dodgerblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    padding: 4px 20px;
+
+}
+
 .second {
     text-align: center;
+    padding: 52px;
+    margin-bottom: 52px;
+    padding: 16px 52px;
+}
+
+h3 {
+    font-size: 48px;
 }
 
 .sub {
@@ -70,15 +90,22 @@ h2 {
 .third {
     background-color: #E5E7EB;
     color:#1F2937;
+    padding: 16px 52px;
 }
 
 .quote {
+    padding: 32px;
     font-size: 36px;
     font-style: italic;
+    margin-top: 52px;
+    margin-bottom: 52px;
+
 }
+
 
 .last {
     border: solid 8px saddlebrown;
+    padding: 52px;
 }
 
 .footer {
